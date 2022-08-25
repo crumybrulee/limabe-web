@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Limabe Corporation</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/apple-touch-icon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Multi - v2.2.1
+  * Template URL: https://bootstrapmade.com/multi-responsive-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      $.get('data.json', function(obj){
+        var str="<table class='table'>";
+        str+="<thead class='thead-dark'><tr><th>No</th><th>Kategori</th><th>Judul Headline</th><th>Waktu Publish</th><th>Waktu Scrapping</th></tr></thead>";
+        $.each(obj,function(n,data){
+          str+="<tbody><tr><td>"+(n+1)+"</td>";
+          str+="<td>"+data.category+"</td>";
+          str+="<td>"+data.title+"</td>";
+          str+="<td>"+data.publish+"</td>";
+          str+="<td>"+data.date+"</td></tr></tbody>";
+        });
+        str+="</table>";
+        $('#headline_json').html(str);
+      });
+    });
+
+    $(function(){
+      $.get('scraping_2/hasilscraping.json', function(obj){
+        var str="<table class='table'>";
+        str+="<thead class='thead-dark'><tr><th>No</th><th>Judul</th><th>Penulis</th><th>Editor</th><th>Waktu Publish</th><th>Thumnail</th></tr></thead>";
+        $.each(obj,function(n,data){
+          str+="<tbody><tr><td>"+(n+1)+"</td>";
+          str+="<td><a target='v_blank' href="+ data.Link +">"+data.Judul+"</td>";
+          str+="<td>"+data.Penulis+"</td>";
+          str+="<td>"+data.Editor+"</td>";
+          str+="<td>"+data.Publish+"</td>";
+          str+="<td><img class='img-thumbnail' width='100' src="+data.Image+"></td></tr></tbody>";
+        });
+        str+="</table>";
+        $('#headline_json2').html(str);
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo mr-auto"><img src="assets/img/apple-touch-icon.png" class="responsive-img"><a href="index.html"> Limabe</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#scrabing" >Scrabing</a></li>
+          <li><a href="#scraping2" >Scraping 2</a></li>
+          <li><a href="#visdata" >Visualisasi Data</a></li>
+          <li><a href="#contact" >Contact</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-2.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Kelompok B5</h2>
+              <p class="animate__animated animate__fadeInUp">Mata Kuliah Proyek 1 : Proyek Pengembangan Aplikasi/ Aplikasi Perkantoran</p>
+              <a href="https://e-learning.polban.ac.id/course/view.php?id=3731" class="btn-get-started animate__animated animate__fadeInUp scrollto" target ="v_blank">Read More</a>
+            </div>
+          </div>
+        </div>
+
+		<!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-1.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Kami  <span>adalah</span></h2>
+              <p class="animate__animated animate__fadeInUp">Kelompok Anak JTK Belum Lancar Ngoding.</p>
+              <!--a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>-->
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <p class="animate__animated animate__fadeInDown">Visi: Menciptakan inovasi baru yang belum terpikirkan.</p>
+			  <p class="animate__animated animate__fadeInUp"> Misi:</p>
+              <p class="animate__animated animate__fadeInUp">1. Selalu berdoa kepada Tuhan YME.</p>
+			  <p class="animate__animated animate__fadeInUp">2. Akan terus berusaha.</p>
+			  <p class="animate__animated animate__fadeInUp">3. Tawakal</p>
+              <!--a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>-->
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>About Us</p>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              Kami adalah kelompok yang beranggotakan 5 orang dalam Mata Kuliah Proyek 1. Disatukan melalui Jurusan Teknik Komputer dan Informatika, Program Studi DIV - Teknik Informatika, Kelas 1Bs
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Jurusan Teknik Komputer dan Informatika</li>
+              <li><i class="ri-check-double-line"></i> Program Studi DIV - Teknik Informatika</li>
+              <li><i class="ri-check-double-line"></i> BP 2020</li>
+            </ul>
+            <a href="https://polban.ac.id" target="v_blank" class="btn-learn-more">POLBAN.AC.ID</a>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/sauzoenoYns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-6 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="icofont-simple-smile"></i>
+              <span data-toggle="counter-up">132</span>
+              <p><strong>Tugas Selesai</strong></p>
+              <a href="https://e-learning.polban.ac.id/" target="v_blank">Cek! &raquo;</a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="icofont-document-folder"></i>
+              <span data-toggle="counter-up">23</span>
+              <p><strong>Tugas Pending</strong></p>
+              <a href="https://e-learning.polban.ac.id/" target="v_blank">Cek! &raquo;</a>
+            </div>
+          </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>Motto</h3>
+          <a class="cta-btn" href="#!"><i>"Dari Ciwaruga Menuju Dunia"</i></a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>Check our Team</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+              <img src="assets/img/portfolio/IMG-20200621-WA0016.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <a href="MuhamadAryadipura.html">
+                  <h4>Muhammad Aryadipura</h4>
+                  <span>Leader Of Team</span>
+                  </a>
+                </div>
+                <div class="social">
+                  <a href="https://twitter.com/Arydipura" target='v_blank'><i class="icofont-twitter"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100042104370048" target='v_blank'><i class="icofont-facebook"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100042104370048" target='v_blank'><i class="icofont-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/muhamad-aryadipura-0319b120b/" target='v_blank'><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6" data-wow-delay="0.1s">
+            <div class="member" data-aos="zoom-in" data-aos-delay="200">
+              <img src="assets/img/portfolio/crumy1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <a href="crumybrulee.html">
+                  <h4>Caturiani Pratidina Bintari</h4>
+                  <span>Product Manager</span>
+                  </a>
+                </div>
+                <div class="social">
+                  <a href="https://twitter.com/crumybrulee" target='v_blank'><i class="icofont-twitter"></i></a>
+                  <a href="https://www.facebook.com/caturiani.p.bintari/" target='v_blank'><i class="icofont-facebook"></i></a>
+                  <a href="https://www.instagram.com/caturbintari/" target='v_blank'><i class="icofont-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/crumy-brulee-7b890920b/" target='v_blank'><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6" data-wow-delay="0.2s">
+            <div class="member" data-aos="zoom-in" data-aos-delay="300">
+              <img src="assets/img/portfolio/aqil1.png" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <a href="aqilrahman.html">
+                  <h4>Aqil Rahman</h4>
+                  <span>CTO</span>
+                  </a>
+                </div>
+                <div class="social">
+                  <a href="https://twitter.com/aqqiil" target="v_blank"><i class="icofont-twitter"></i></a>
+                  <a href="https://www.facebook.com/aqqiill/" target="v_blank"><i class="icofont-facebook"></i></a>
+                  <a href="http://instagram.com/aqiill" target="v_blank"><i class="icofont-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/aqiill/" target="v_blank"><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-6 col-lg-4 col-md-6" data-wow-delay="0.3s">
+            <div class="member" data-aos="zoom-in" data-aos-delay="400">
+              <img src="assets/img/portfolio/zidan1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <a href="zidanalba.html">
+                  <h4>Mochammad Zidan Al-Baihaqi</h4>
+                  <span>Graphic Designer</span>
+                  </a>
+                </div>
+                <div class="social">
+                  <a href="" target='v_blank'><i class="icofont-twitter"></i></a>
+                  <a href="https://web.facebook.com/moch.albaihaqi/" target='v_blank'><i class="icofont-facebook"></i></a>
+                  <a href="http://instagram.com/zidanalba_" target='v_blank'><i class="icofont-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/zidan-albaihaqi-073b371b8/" target='v_blank'><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-6 col-lg-4 col-md-6" data-wow-delay="0.3s">
+            <div class="member" data-aos="zoom-in" data-aos-delay="400">
+              <img src="assets/img/portfolio/isal.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <a href="faizal.html">
+                  <h4>Faizal Abdul Hakim</h4>
+                  <span>Consultant</span>
+                  </a>
+                </div>
+                <div class="social">
+                  <a href="https://twitter.com/Faizal07899193" target='v_blank'><i class="icofont-twitter"></i></a>
+                  <a href="https://web.facebook.com/faizal.abdulhakim" target='v_blank'><i class="icofont-facebook"></i></a>
+                  <a href="https://www.instagram.com/faizalabdulv/" target='v_blank'><i class="icofont-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/faizal-abdul-hakim-6929b520b/" target='v_blank'><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Scraping Section ======= -->
+    <section id="scrabing" class="scrabing">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Scrabing</h2>
+          <p><a href="https://republika.co.id/" target="v_blank">republika.co.id</a></p>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-12">
+            <div id="headline_json"></div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Scraping Section -->
+
+    <!-- ======= Scraping  Section ======= -->
+    <section id="scraping2" class="scrabing">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Scrabing 2</h2>
+          <p><a href="https://kemensos.go.id/direktorat-jenderal-rehabilitasi-sosial" target="v_blank">kemensos.co.id</a></p>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-12">
+            <div id="headline_json2"></div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Scraping  Section -->
+
+    <!-- ======= Visualisasi Data  Section ======= -->
+    <section id="visdata" class="scrabing">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Visualisasi Data</h2>
+          <p><a href="https://myanimelist.net/topanime.php" target="v_blank">MyAnimeList.net</a></p>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <canvas id="columnChart" width="100%"></canvas>
+          </div>
+
+          <div class="col-lg-6">
+            <canvas id="oilChart" width="50%"></canvas>
+          </div>
+
+          <div class="col-lg-6">
+            <canvas id="line" width="100%"></canvas>
+          </div>
+
+          <div class="col-lg-6">
+            <canvas id="barChart" width="100%"></canvas>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Visualisasi Data  Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="info-box">
+                  <i class="bx bx-map"></i>
+                  <h3>Our Address</h3>
+                  <p>Jalan Gegerkalong Hilir, Ciwaruga, Kabupaten Bandung Barat, Jawa Barat 40559</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@limabe.co<br>contact@limabe.co</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Call Us</h3>
+                  <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>Maps</h3>
+            <iframe width="100%" height="200px" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15844.713654301093!2d107.5723439!3d-6.8692133!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa1ddabf7c25e325!2sJurusan%20Teknik%20Komputer%20dan%20Informatika%20Politeknik%20Negeri%20Bandung!5e0!3m2!1sen!2sid!4v1618286819942!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 text-center footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#home">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#team">Team</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Subscribe</h4>
+            <p>Dukung Kami dengan SUBSCRIBE dibawah ini!</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Limabe Corporation</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+
+  var resp = jQuery.parseJSON(
+          jQuery.ajax({
+                  url: "hasilscraping.json", 
+                  async: false,
+                  dataType: 'json'
+          }).responseText
+  )
+
+  var data = resp; 
+  var judul    = [];
+  var rating       = [];
+
+  for (var i = 0; i < 5; i++) {
+          judul.push(data[i].Judul);
+          rating.push(data[i].Rating);
+  }
+
+  var ctx = document.getElementById('barChart');
+  var myChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+          labels: judul,
+          datasets: [{
+              label: '# Rating Film',
+              data: rating,
+              backgroundColor: [
+                  'rgba(255, 99, 132, 0.2)',
+                  'rgba(54, 162, 235, 0.2)',
+                  'rgba(255, 206, 86, 0.2)',
+                  'rgba(75, 192, 192, 0.2)',
+                  'rgba(153, 102, 255, 0.2)',
+                  'rgba(255, 159, 64, 0.2)'
+              ],
+              borderColor: [
+                  'rgba(255, 99, 132, 1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(153, 102, 255, 1)',
+                  'rgba(255, 159, 64, 1)'
+              ],
+              borderWidth: 1
+          }]
+      },
+      options: {
+            indexAxis: 'y',
+
+          scales: {
+              y: {
+                  beginAtZero: true
+              }
+          }
+      }
+  });
+
+  // =============================================================================================================
+
+
+  var chartColors = {
+    red: 'rgb(255, 99, 132)',
+    orange: 'rgb(255, 159, 64)',
+    yellow: 'rgb(255, 205, 86)',
+    green: 'rgb(75, 192, 192)',
+    blue: 'rgb(54, 162, 235)',
+    purple: 'rgb(153, 102, 255)',
+    grey: 'rgb(231,233,237)'
+  };
+
+  var randomScalingFactor = function() {
+    return (Math.random() > 0.5 ? 1.0 : -1.0) * Math.round(Math.random() * 100);
+  }
+  var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  var config = {
+    type: 'line',
+    data: {
+      labels: judul,
+      datasets: [{
+        label: "Rating Film",
+        backgroundColor: chartColors.red,
+        borderColor: chartColors.red,
+        data: rating,
+        fill: false,
+      }]
+    },
+    options: {
+      responsive: true,
+      title: {
+        display: true,
+        text: 'Chart.js Line Chart'
+      },
+      tooltips: {
+        mode: 'label',
+      },
+      hover: {
+        mode: 'nearest',
+        intersect: true
+      },
+      scales: {
+        xAxes: [{
+          display: true,
+          scaleLabel: {
+            display: true,
+            labelString: 'Month'
+          }
+        }],
+        yAxes: [{
+          display: true,
+          scaleLabel: {
+            display: true,
+            labelString: 'Value'
+          }
+        }]
+      }
+    }
+  };
+
+
+  var ctx = document.getElementById("line").getContext("2d");
+  window.myLine = new Chart(ctx, config);
+
+  // =============================================================================================================
+
+  var oilCanvas = document.getElementById("oilChart");
+
+  judul.sort((a, b) => a > b ? -1 : 1);
+  rating.sort((a, b) => a > b ? -1 : 1);
+
+  var oilData = {
+      labels: judul,
+      datasets: [
+          {
+              data: rating,
+              backgroundColor: [
+                  "#FF6384",
+                  "#63FF84",
+                  "#84FF63",
+                  "#8463FF",
+                  "#6384FF"
+              ]
+          }]
+  };
+
+  var pieChart = new Chart(oilCanvas, {
+    type: 'pie',
+    data: oilData
+  });
+
+  // =============================================================================================================
+
+  var resp = jQuery.parseJSON(
+          jQuery.ajax({
+                  url: "hasilscraping.json", 
+                  async: false,
+                  dataType: 'json'
+          }).responseText
+  )
+
+  var data = resp; 
+  var judul    = [];
+  var rating       = [];
+
+  for (var i = 0; i < 5; i++) {
+          judul.push(data[i].Judul);
+          rating.push(data[i].Rating);
+  }
+
+  var ctx = document.getElementById('columnChart');
+  var myChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+          labels: judul,
+          datasets: [{
+              label: '# Rating Film',
+              data: rating,
+              backgroundColor: [
+                  'rgba(255, 99, 132, 0.2)',
+                  'rgba(54, 162, 235, 0.2)',
+                  'rgba(255, 206, 86, 0.2)',
+                  'rgba(75, 192, 192, 0.2)',
+                  'rgba(153, 102, 255, 0.2)',
+                  'rgba(255, 159, 64, 0.2)'
+              ],
+              borderColor: [
+                  'rgba(255, 99, 132, 1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(153, 102, 255, 1)',
+                  'rgba(255, 159, 64, 1)'
+              ],
+              borderWidth: 1
+          }]
+      },
+      options: {
+          
+          scales: {
+              y: {
+                  beginAtZero: true
+              }
+          }
+      }
+  });
+  </script>
+</body>
+
+</html>

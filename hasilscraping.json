@@ -1,0 +1,602 @@
+[
+      {
+            "No": "1",
+            "Judul": "Fullmetal Alchemist: Brotherhood",
+            "Rating": "9.18",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1223/96541.webp?s=263cff1b768e29f3cc841792b2dded2e"
+      },
+      {
+            "No": "2",
+            "Judul": "Shingeki no Kyojin Season 3 Part 2",
+            "Rating": "9.11",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1517/100633.webp?s=8ec097bf576c27c478e96097a85a6232"
+      },
+      {
+            "No": "3",
+            "Judul": "Steins;Gate",
+            "Rating": "9.11",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/5/73199.webp?s=88a9e53d067a524ad1b84e49e13a270a"
+      },
+      {
+            "No": "4",
+            "Judul": "Gintama\u00b0",
+            "Rating": "9.09",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/3/72078.webp?s=3c2861f116759641d5bffb941a86ffab"
+      },
+      {
+            "No": "5",
+            "Judul": "Hunter x Hunter (2011)",
+            "Rating": "9.08",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/11/33657.webp?s=23be891e773e777e8bb33379f99e085c"
+      },
+      {
+            "No": "6",
+            "Judul": "Gintama'",
+            "Rating": "9.07",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/4/50361.webp?s=125342fa40b162d49da3f052ea2f34b3"
+      },
+      {
+            "No": "7",
+            "Judul": "Ginga Eiyuu Densetsu",
+            "Rating": "9.06",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/13/13225.webp?s=53e5bde760be0fe9eee25585f48fdb78"
+      },
+      {
+            "No": "8",
+            "Judul": "Gintama': Enchousen",
+            "Rating": "9.04",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/6/75172.webp?s=ac55e6d39560f0f1f4c0d418ccc329a6"
+      },
+      {
+            "No": "9",
+            "Judul": "Shingeki no Kyojin: The Final Season",
+            "Rating": "9.04",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1000/110531.webp?s=cc9eb3ae70821928b0607c73674ab65c"
+      },
+      {
+            "No": "10",
+            "Judul": "3-gatsu no Lion 2nd Season",
+            "Rating": "8.99",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/3/88469.webp?s=1582d226f6c7cfb8bb4e94f72528e421"
+      },
+      {
+            "No": "11",
+            "Judul": "Koe no Katachi",
+            "Rating": "8.99",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1122/96435.webp?s=959086d78ba36bab65797eb07396d985"
+      },
+      {
+            "No": "12",
+            "Judul": "Gintama.",
+            "Rating": "8.98",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/3/83528.webp?s=8a247bb8f07d45b8efc548760e2cb9c2"
+      },
+      {
+            "No": "13",
+            "Judul": "Gintama",
+            "Rating": "8.96",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/10/73274.webp?s=125ecd96527f4a1806c42c82fe672f3b"
+      },
+      {
+            "No": "14",
+            "Judul": "Clannad: After Story",
+            "Rating": "8.95",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/13/24647.webp?s=092ac75190c791aec3fa30a1b6e06231"
+      },
+      {
+            "No": "15",
+            "Judul": "Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien Nare",
+            "Rating": "8.95",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/10/51723.webp?s=b5631a4182ad47db470c9a14b3a830be"
+      },
+      {
+            "No": "16",
+            "Judul": "Kimi no Na wa.",
+            "Rating": "8.94",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/5/87048.webp?s=14812900d1190a4ddd52031dd1e10be5"
+      },
+      {
+            "No": "17",
+            "Judul": "Owarimonogatari 2nd Season",
+            "Rating": "8.92",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/6/87322.webp?s=ab248a94549779d70ee098afd29e1811"
+      },
+      {
+            "No": "18",
+            "Judul": "Code Geass: Hangyaku no Lelouch R2",
+            "Rating": "8.91",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/4/9391.webp?s=dfbaf68056de8f6a5612cdbda22cf848"
+      },
+      {
+            "No": "19",
+            "Judul": "Gintama.: Shirogane no Tamashii-hen - Kouhan-sen",
+            "Rating": "8.87",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1776/96566.webp?s=ca41369c775a73ebf740fe6c817f1d12"
+      },
+      {
+            "No": "20",
+            "Judul": "Fate/stay night Movie: Heaven's Feel - III. Spring Song",
+            "Rating": "8.84",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1465/113810.webp?s=533ce09011a6b683bab2110cac27f642"
+      },
+      {
+            "No": "21",
+            "Judul": "Haikyuu!!: Karasuno Koukou vs. Shiratorizawa Gakuen Koukou",
+            "Rating": "8.84",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/7/81992.webp?s=61d6e8991034b0caae1afa744a885f2f"
+      },
+      {
+            "No": "22",
+            "Judul": "Mob Psycho 100 II",
+            "Rating": "8.83",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1918/96303.webp?s=c22fd2b43ecd8d6aefc006f8926550ec"
+      },
+      {
+            "No": "23",
+            "Judul": "Gintama.: Shirogane no Tamashii-hen",
+            "Rating": "8.81",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/12/89603.webp?s=5a1c68d26254026568a10e2e4f806457"
+      },
+      {
+            "No": "24",
+            "Judul": "Kizumonogatari III: Reiketsu-hen",
+            "Rating": "8.81",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/8/82911.webp?s=7c2ebaa0eb23d4ce557a0085c9e0e2bf"
+      },
+      {
+            "No": "25",
+            "Judul": "Sen to Chihiro no Kamikakushi",
+            "Rating": "8.81",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/6/79597.webp?s=a67e3ef6bdeb66c04331e766ce29b44d"
+      },
+      {
+            "No": "26",
+            "Judul": "Gintama: The Final",
+            "Rating": "8.79",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1027/109706.webp?s=8e0bbc1dda0a51a084f2b055bff31806"
+      },
+      {
+            "No": "27",
+            "Judul": "Jujutsu Kaisen (TV)",
+            "Rating": "8.79",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1171/109222.webp?s=7d6c42c9d69e13ef609900c46d8d45f5"
+      },
+      {
+            "No": "28",
+            "Judul": "Monogatari Series: Second Season",
+            "Rating": "8.78",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/3/52133.webp?s=468ef992585d93077e5be5a900008701"
+      },
+      {
+            "No": "29",
+            "Judul": "Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen",
+            "Rating": "8.78",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/10/82947.webp?s=c96d7fd124d6b073bcbd51e165339db8"
+      },
+      {
+            "No": "30",
+            "Judul": "Cowboy Bebop",
+            "Rating": "8.77",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/4/19644.webp?s=7701780d5a9b45e3c371a724b05a2422"
+      },
+      {
+            "No": "31",
+            "Judul": "Monster",
+            "Rating": "8.77",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/10/18793.webp?s=a74f8cede86b7b26248ba0b3846f9dcd"
+      },
+      {
+            "No": "32",
+            "Judul": "Mushishi Zoku Shou 2nd Season",
+            "Rating": "8.76",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/9/68095.webp?s=a10a6a2f4534171b2adb470a0eac6fe3"
+      },
+      {
+            "No": "33",
+            "Judul": "Fruits Basket: The Final",
+            "Rating": "8.75",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1803/113269.webp?s=c8e0afd1997507ddba08a0342c43a470"
+      },
+      {
+            "No": "34",
+            "Judul": "Hajime no Ippo",
+            "Rating": "8.74",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/4/86334.webp?s=8268694dfd75895e71475e096b2bbef6"
+      },
+      {
+            "No": "35",
+            "Judul": "Made in Abyss",
+            "Rating": "8.73",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/6/86733.webp?s=c1575349ad04d3be6ac12502f46db721"
+      },
+      {
+            "No": "36",
+            "Judul": "Made in Abyss Movie 3: Fukaki Tamashii no Reimei",
+            "Rating": "8.72",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1502/110723.webp?s=0e73de5f3b62a2e52a775311c349770f"
+      },
+      {
+            "No": "37",
+            "Judul": "Mushishi Zoku Shou",
+            "Rating": "8.72",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/13/58533.webp?s=c2b07344edbe80e4e8b97c8c93db15cf"
+      },
+      {
+            "No": "38",
+            "Judul": "Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen",
+            "Rating": "8.72",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1807/102419.webp?s=a93d5ed06621343e75769beb6e62256c"
+      },
+      {
+            "No": "39",
+            "Judul": "Shigatsu wa Kimi no Uso",
+            "Rating": "8.72",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/3/67177.webp?s=004455b3d3269e57bc24ce47e5758b4e"
+      },
+      {
+            "No": "40",
+            "Judul": "Violet Evergarden Movie",
+            "Rating": "8.72",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1825/110716.webp?s=b31af60937f54159c6436bada7fe3173"
+      },
+      {
+            "No": "41",
+            "Judul": "Vinland Saga",
+            "Rating": "8.71",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1500/103005.webp?s=f7b0f457364275ef2453a1b7f45bea1d"
+      },
+      {
+            "No": "42",
+            "Judul": "Code Geass: Hangyaku no Lelouch",
+            "Rating": "8.71",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/5/50331.webp?s=c6edd45e5f04bd2435027b54a9243147"
+      },
+      {
+            "No": "43",
+            "Judul": "Kaguya-sama wa Kokurasetai?: Tensai-tachi no Renai Zunousen",
+            "Rating": "8.71",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1764/106659.webp?s=212272d1fba3b486e97f8b1842178f59"
+      },
+      {
+            "No": "44",
+            "Judul": "Kimetsu no Yaiba Movie: Mugen Ressha-hen",
+            "Rating": "8.71",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1704/106947.webp?s=370969492809220392e37a5176b3e2d0"
+      },
+      {
+            "No": "45",
+            "Judul": "Mononoke Hime",
+            "Rating": "8.71",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/7/75919.webp?s=2521ede81b391f67db013a3384e4ee44"
+      },
+      {
+            "No": "46",
+            "Judul": "Fumetsu no Anata e",
+            "Rating": "8.70",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1134/111757.webp?s=d265079ca232cb060d8763af59f40cfd"
+      },
+      {
+            "No": "47",
+            "Judul": "Great Teacher Onizuka",
+            "Rating": "8.70",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/13/11460.webp?s=f64e54fcab27355d3f6dd549651f0bd1"
+      },
+      {
+            "No": "48",
+            "Judul": "Haikyuu!! Second Season",
+            "Rating": "8.70",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/9/76662.webp?s=be0d03c826724f9d6f682223685669c2"
+      },
+      {
+            "No": "49",
+            "Judul": "Mushishi",
+            "Rating": "8.69",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/2/73862.webp?s=e7daa40d51986da2bf4dcd3bbcf5bf0f"
+      },
+      {
+            "No": "50",
+            "Judul": "Seishun Buta Yarou wa Yumemiru Shoujo no Yume wo Minai",
+            "Rating": "8.67",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1613/102179.webp?s=8808222aca3e96a6297ec4163f935872"
+      },
+      {
+            "No": "51",
+            "Judul": "Natsume Yuujinchou Shi",
+            "Rating": "8.66",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/3/37449.webp?s=8f1dfb041b14077edc1e43641be71678"
+      },
+      {
+            "No": "52",
+            "Judul": "Tengen Toppa Gurren Lagann",
+            "Rating": "8.66",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/4/5123.webp?s=c34cacc696bd3dff67177eda401e75fb"
+      },
+      {
+            "No": "53",
+            "Judul": "Ashita no Joe 2",
+            "Rating": "8.66",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/3/45028.webp?s=7e46677a06eafcea04fb74b99f277ab8"
+      },
+      {
+            "No": "54",
+            "Judul": "Hajime no Ippo: New Challenger",
+            "Rating": "8.66",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/8/56617.webp?s=afbd0cfc0f31c4ff2210bb5cc9cec03c"
+      },
+      {
+            "No": "55",
+            "Judul": "Howl no Ugoku Shiro",
+            "Rating": "8.66",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/5/75810.webp?s=9372dd40e20f4cb43ff0e632c4d19286"
+      },
+      {
+            "No": "56",
+            "Judul": "Natsume Yuujinchou Roku",
+            "Rating": "8.64",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/6/84416.webp?s=f6d8df2f681695b08f51ef25ffcfa3f1"
+      },
+      {
+            "No": "57",
+            "Judul": "Suzumiya Haruhi no Shoushitsu",
+            "Rating": "8.64",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1248/112352.webp?s=4f285b2c806a3f3dc520739e3c5b83ad"
+      },
+      {
+            "No": "58",
+            "Judul": "Violet Evergarden",
+            "Rating": "8.64",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1795/95088.webp?s=8812880f34a53e7e9ecd9111801a04e6"
+      },
+      {
+            "No": "59",
+            "Judul": "Ookami Kodomo no Ame to Yuki",
+            "Rating": "8.63",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/9/35721.webp?s=b26526eb9bb01de84118fe318215dbe7"
+      },
+      {
+            "No": "60",
+            "Judul": "Ping Pong the Animation",
+            "Rating": "8.63",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/10/58041.webp?s=aa798e29b979f3de977b4ad342d70b45"
+      },
+      {
+            "No": "61",
+            "Judul": "Yakusoku no Neverland",
+            "Rating": "8.63",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1125/96929.webp?s=c1d524dfd38ef79ec3a27cb5599d78dc"
+      },
+      {
+            "No": "62",
+            "Judul": "Death Note",
+            "Rating": "8.63",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/9/9453.webp?s=bcf651aae2cd301a32bcc46e317a98bc"
+      },
+      {
+            "No": "63",
+            "Judul": "Mushishi Zoku Shou: Suzu no Shizuku",
+            "Rating": "8.62",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/9/72689.webp?s=f35408f831f4bf66a4659f57734336fa"
+      },
+      {
+            "No": "64",
+            "Judul": "Shingeki no Kyojin Season 3",
+            "Rating": "8.62",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1173/92110.webp?s=aaead88622c543a86ca26b7e1bbc297f"
+      },
+      {
+            "No": "65",
+            "Judul": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2",
+            "Rating": "8.61",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1132/110666.webp?s=6f03fea0268de72dd6d52c2e036a77d7"
+      },
+      {
+            "No": "66",
+            "Judul": "Kizumonogatari II: Nekketsu-hen",
+            "Rating": "8.61",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/8/80930.webp?s=d057a55b2775f4645f1c891db002b26c"
+      },
+      {
+            "No": "67",
+            "Judul": "JoJo no Kimyou na Bouken Part 5: Ougon no Kaze",
+            "Rating": "8.60",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1572/95010.webp?s=89b1018120ac13700255b1c1d8fef4ae"
+      },
+      {
+            "No": "68",
+            "Judul": "Kimetsu no Yaiba",
+            "Rating": "8.60",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1286/99889.webp?s=5697462c0ee69a372e4abef4bec21983"
+      },
+      {
+            "No": "69",
+            "Judul": "Shouwa Genroku Rakugo Shinjuu",
+            "Rating": "8.60",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/2/77907.webp?s=b2a14bcab624091fdb6b261fa20ba4b7"
+      },
+      {
+            "No": "70",
+            "Judul": "Yojouhan Shinwa Taikei",
+            "Rating": "8.60",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/10/50457.webp?s=f5c881bfc7869995ee20b50f9a59bd21"
+      },
+      {
+            "No": "71",
+            "Judul": "Natsume Yuujinchou San",
+            "Rating": "8.59",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/8/82394.webp?s=00ce1ffb7bc8e054a353846046aa1d01"
+      },
+      {
+            "No": "72",
+            "Judul": "Fate/stay night Movie: Heaven's Feel - II. Lost Butterfly",
+            "Rating": "8.59",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1974/98158.webp?s=5f11d39bbb02c6ccb1fb5757c1d152e1"
+      },
+      {
+            "No": "73",
+            "Judul": "Fate/Zero 2nd Season",
+            "Rating": "8.59",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/8/41125.webp?s=31168adc5cdc537e2aee62954bcc7458"
+      },
+      {
+            "No": "74",
+            "Judul": "Hajime no Ippo: Rising",
+            "Rating": "8.59",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/6/56147.webp?s=96688fd70266a761f1e90e8d3031ecae"
+      },
+      {
+            "No": "75",
+            "Judul": "Kimi no Suizou wo Tabetai",
+            "Rating": "8.59",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1768/93291.webp?s=69237eedebd977934b57a986bba16bd2"
+      },
+      {
+            "No": "76",
+            "Judul": "Natsume Yuujinchou Go",
+            "Rating": "8.58",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/11/81755.webp?s=acaf7b3d6a9729ca9978b7f4af08459e"
+      },
+      {
+            "No": "77",
+            "Judul": "Mushishi: Hihamukage",
+            "Rating": "8.57",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/10/59315.webp?s=7fc9f1b435d0dcadfd6e4b6b5bd9b953"
+      },
+      {
+            "No": "78",
+            "Judul": "Tengen Toppa Gurren Lagann Movie 2: Lagann-hen",
+            "Rating": "8.57",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/12/19698.webp?s=81290a9fc6b48f0d6670d851307bb77e"
+      },
+      {
+            "No": "79",
+            "Judul": "Bakuman. 3rd Season",
+            "Rating": "8.57",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/6/41845.webp?s=d2d98cb432de5cbb5ed9e47f26fd26a1"
+      },
+      {
+            "No": "80",
+            "Judul": "Kara no Kyoukai 5: Mujun Rasen",
+            "Rating": "8.56",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/8/9246.webp?s=0a15d1876e0fd641d2f236f205836ec7"
+      },
+      {
+            "No": "81",
+            "Judul": "Sora yori mo Tooi Basho",
+            "Rating": "8.56",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/6/89879.webp?s=0866b18482917980607cc0d9dd6b862a"
+      },
+      {
+            "No": "82",
+            "Judul": "Yuru Camp\u25b3 Season 2",
+            "Rating": "8.56",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1255/110636.webp?s=dfdd8bed7a78d0cb3d0b1b44b8acce0d"
+      },
+      {
+            "No": "83",
+            "Judul": "Zoku Natsume Yuujinchou",
+            "Rating": "8.56",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/4/79738.webp?s=363dc1dfbccf3fc047009225ba862035"
+      },
+      {
+            "No": "84",
+            "Judul": "One Punch Man",
+            "Rating": "8.55",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/12/76049.webp?s=d3b915e5ccf3e9462a9452fbb37b50b1"
+      },
+      {
+            "No": "85",
+            "Judul": "Haikyuu!!: To the Top 2nd Season",
+            "Rating": "8.55",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1453/106768.webp?s=9c0f9030c175af6892dc7eeb7960d3d0"
+      },
+      {
+            "No": "86",
+            "Judul": "Holo no Graffiti",
+            "Rating": "8.55",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1259/110227.webp?s=581a13c06d5d4b779346bb76447fe196"
+      },
+      {
+            "No": "87",
+            "Judul": "Fruits Basket 2nd Season",
+            "Rating": "8.54",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1972/111635.webp?s=5dee140e22c6f3788194f7114c532fea"
+      },
+      {
+            "No": "88",
+            "Judul": "Koukaku Kidoutai: Stand Alone Complex 2nd GIG",
+            "Rating": "8.54",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/11/51465.webp?s=e1ad194457fc579cee753be9f0e30b5d"
+      },
+      {
+            "No": "89",
+            "Judul": "One Piece",
+            "Rating": "8.54",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/6/73245.webp?s=c8ce61af081779acd201220cc1eb540b"
+      },
+      {
+            "No": "90",
+            "Judul": "Ansatsu Kyoushitsu 2nd Season",
+            "Rating": "8.53",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/8/77966.webp?s=4bd248bf3b7a85ebbebf6abed61aaf66"
+      },
+      {
+            "No": "91",
+            "Judul": "Gintama.: Porori-hen",
+            "Rating": "8.53",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/11/88325.webp?s=f6e857e5107315e2c5c88d694611eef1"
+      },
+      {
+            "No": "92",
+            "Judul": "Aria the Origination",
+            "Rating": "8.52",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/6/77623.webp?s=5ce0215b8ba69817ac52a2b7aa098bf7"
+      },
+      {
+            "No": "93",
+            "Judul": "Gintama Movie 1: Shinyaku Benizakura-hen",
+            "Rating": "8.52",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/4/28803.webp?s=126affc85677373d0c7aeb172d8bf48d"
+      },
+      {
+            "No": "94",
+            "Judul": "Gintama: The Semi-Final",
+            "Rating": "8.52",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1694/110521.webp?s=3a84c93db1862a1ad3de9b83f89d6866"
+      },
+      {
+            "No": "95",
+            "Judul": "Neon Genesis Evangelion: The End of Evangelion",
+            "Rating": "8.52",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1404/98182.webp?s=0ad471ae61594f274231cc510a01bc9f"
+      },
+      {
+            "No": "96",
+            "Judul": "Slam Dunk",
+            "Rating": "8.52",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/12/86890.webp?s=68c1146b0501d3d80f2af92c6cd20551"
+      },
+      {
+            "No": "97",
+            "Judul": "Tian Guan Ci Fu Special",
+            "Rating": "8.52",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1043/110306.webp?s=76ffccfcf64b182a9aa227a211b0fa37"
+      },
+      {
+            "No": "98",
+            "Judul": "Uchuu Kyoudai",
+            "Rating": "8.52",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/7/37573.webp?s=24e82f0edb88760f30cf371b923e346e"
+      },
+      {
+            "No": "99",
+            "Judul": "Rainbow: Nisha Rokubou no Shichinin",
+            "Rating": "8.51",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/9/72697.webp?s=4255e9c010521e4d4e0603fa4674e457"
+      },
+      {
+            "No": "100",
+            "Judul": "Steins;Gate 0",
+            "Rating": "8.51",
+            "Image": "https://cdn.myanimelist.net/r/50x70/images/anime/1375/93521.webp?s=c67ebe56f795d5ff93453cfbeb72fc4e"
+      }
+]
